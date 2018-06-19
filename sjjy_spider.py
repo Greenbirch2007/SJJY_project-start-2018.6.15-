@@ -24,9 +24,9 @@ driver.get('http://www.jiayuan.com/')
 
 
 driver.find_element_by_xpath('//*[@id="hder_login_form_new"]/input[3]').clear()
-driver.find_element_by_xpath('//*[@id="hder_login_form_new"]/input[3]').send_keys('2742374471@qq.com')
+driver.find_element_by_xpath('//*[@id="hder_login_form_new"]/input[3]').send_keys('')
 driver.find_element_by_xpath('//*[@id="hder_login_form_new"]/input[4]').clear()
-driver.find_element_by_xpath('//*[@id="hder_login_form_new"]/input[4]').send_keys('1989031934')
+driver.find_element_by_xpath('//*[@id="hder_login_form_new"]/input[4]').send_keys('')
 driver.find_element_by_xpath('//*[@id="hder_login_form_new"]/button').click()
 # 等待之后再到搜索的界面
 time.sleep(6)
